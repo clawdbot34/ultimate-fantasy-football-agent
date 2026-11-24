@@ -1,0 +1,33 @@
+{
+  "league": {
+    "league_key": "demo:league:2026",
+    "platform": "demo",
+    "platform_league_id": "replace-me",
+    "season": 2026,
+    "name": "Example League",
+    "timezone": "America/Phoenix",
+    "draft_at": "2026-09-01T18:00:00-07:00",
+    "source_url": null,
+    "observed_at": "2026-08-01T00:00:00Z",
+    "settings": {
+      "team_count": 12,
+      "format": "redraft_head_to_head_points_ppr",
+      "roster": {},
+      "scoring": {},
+      "waivers": {},
+      "trades": {},
+      "playoffs": {}
+    }
+  },
+  "teams": [
+    {
+      "team_key": "demo:league:2026:team:1",
+      "platform_team_id": "1",
+      "name": "Example Team",
+      "manager_name": null,
+      "division_name": null,
+      "is_user_team": true,
+      "observed_at": "2026-08-01T00:00:00Z"
+    }
+  ]
+}

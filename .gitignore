@@ -1,0 +1,25 @@
+.local/
+.env
+.env.*
+!.env.example
+__pycache__/
+.pytest_cache/
+.venv/
+
+# Live league records and local operating tools
+/.goal/
+/AGENTS.md
+/DraftNightRunbook.md
+/Research.md
+/SeasonManagementRunbook.md
+/scripts/build_management_schedule.py
+/scripts/draft_browser_controller.js
+/tests/test_draft_browser_controller.js
+
+# Local databases and SQLite journal files
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*

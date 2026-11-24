@@ -1,0 +1,79 @@
+[
+  {
+    "source_key": "espn_chrome",
+    "name": "ESPN Fantasy Football authenticated UI",
+    "category": "league_truth",
+    "priority_tier": 1,
+    "access_method": "authenticated_chrome",
+    "credential_env": null,
+    "base_url": "https://fantasy.espn.com/football/",
+    "license_notes": "Private league use only; do not store browser credentials or session data.",
+    "enabled": true
+  },
+  {
+    "source_key": "nfl_official",
+    "name": "NFL and official club sources",
+    "category": "official_facts",
+    "priority_tier": 2,
+    "access_method": "public_web",
+    "credential_env": null,
+    "base_url": "https://www.nfl.com/",
+    "license_notes": "Store citations and derived facts; review terms before redistributing content.",
+    "enabled": true
+  },
+  {
+    "source_key": "fantasypros_api",
+    "name": "FantasyPros API",
+    "category": "forecast_consensus",
+    "priority_tier": 4,
+    "access_method": "api_key",
+    "credential_env": "FANTASYPROS_API_KEY",
+    "base_url": "https://api.fantasypros.com/public/v2/json",
+    "license_notes": "Personal non-commercial access requires an approved key. Free access is sample-limited; redistribution and production use have separate terms.",
+    "enabled": true
+  },
+  {
+    "source_key": "nflverse",
+    "name": "nflverse via nflreadpy",
+    "category": "usage_analytics",
+    "priority_tier": 5,
+    "access_method": "public_download",
+    "credential_env": null,
+    "base_url": "https://nflreadpy.nflverse.com/",
+    "license_notes": "Most datasets are CC BY 4.0; some datasets use different attribution terms. Preserve per-dataset provenance.",
+    "enabled": true
+  },
+  {
+    "source_key": "sleeper_api",
+    "name": "Sleeper API",
+    "category": "market_context",
+    "priority_tier": 6,
+    "access_method": "tokenless_read_only_api",
+    "credential_env": null,
+    "base_url": "https://api.sleeper.app/v1/",
+    "license_notes": "Free for non-commercial use; contact Sleeper for commercial use and remain under documented request guidance.",
+    "enabled": true
+  },
+  {
+    "source_key": "nws_api",
+    "name": "National Weather Service API",
+    "category": "weather",
+    "priority_tier": 7,
+    "access_method": "public_api",
+    "credential_env": null,
+    "base_url": "https://api.weather.gov/",
+    "license_notes": "Public U.S. government weather service; follow API identification and usage guidance.",
+    "enabled": true
+  },
+  {
+    "source_key": "local_model",
+    "name": "Local league-specific draft model",
+    "category": "derived_model",
+    "priority_tier": 8,
+    "access_method": "local_calculation",
+    "credential_env": null,
+    "base_url": null,
+    "license_notes": "Derived private values only; never redistribute licensed source records.",
+    "enabled": true
+  }
+]
