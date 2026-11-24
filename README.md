@@ -1,4 +1,4 @@
-# Fantasy Football GM
+# Ultimate Fantasy Football Agent
 
 A local Python and SQLite toolkit for fantasy football draft prep. It turns league rules and player projections into a ranked draft board, then recommends picks that keep a legal roster within reach.
 
